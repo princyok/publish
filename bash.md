@@ -335,7 +335,7 @@ $ wc -l *.pdb > lengths.txt   # redirect the output of the last command into a f
 $ more lengths.txt
 $ sort -n lengths.txt   # sort numerically, i.e. 2 will go before 10, and 6 before 22
 $ sort -n lengths.txt > sorted.txt
-$ head -1 sorted.txt   # show the length of the shortest (number of lines) file
+$ head -1 sorted.txt   # show the length of the shortest file (by number of lines).
 $ wc -l *.pdb | sort -n | head -1   # three commands can be shortened to one - this is called Unix pipe
 ~~~
 
